@@ -7,7 +7,7 @@ const Footer: FunctionComponent = () => {
     <FooterWrapper>
       제 블로그에 방문해 주셔서 감사합니다. 좋은 하루 보내세요!😆 <br /> &copy;
       2022 Developer Jeremy, Powered By Gatsby.
-      <Link to="easter-egg">🥚</Link>
+      <Link to="https://jeremy-kr.github.io/easter-egg/">🥚</Link>
     </FooterWrapper>
   )
 }
