@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://jeremy-kr.github.io/sitemap-index.xml
+Host: https://jeremy-kr.github.io
