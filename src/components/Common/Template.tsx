@@ -44,7 +44,7 @@ const Template: FunctionComponent<TemplateProps> = ({
 
         <meta
           name="google-site-verification"
-          content="google559f07e65a2b6a79.html"
+          content="-qwbTMbK-FrMf61BoLczJp57sqvV4bFqN-FzF-5whW0"
         />
 
         <html lang="ko-kr" />
