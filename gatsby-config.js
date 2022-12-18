@@ -13,7 +13,7 @@ module.exports = {
     title: `Jeremy's Blog`,
     description: `주니어 프론트엔드 개발자 Jeremy의 블로그입니다.`,
     author: `@Jeremy-Kr`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`, // 배포 후 변경
+    siteUrl: `https://jeremy-kr.github.io/`,
   },
   plugins: [
     {
@@ -93,7 +93,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: '<https://my-website.com/>',
+        siteUrl: 'https://jeremy-kr.github.io/',
         stripQueryString: true,
       },
     },
