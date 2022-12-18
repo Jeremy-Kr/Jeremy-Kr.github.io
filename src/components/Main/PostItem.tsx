@@ -77,6 +77,7 @@ const Date = styled.div`
   font-size: 14px;
   font-weight: 400;
   opacity: 0.7;
+  color: #777;
 `
 
 const Category = styled.div`
@@ -90,7 +91,7 @@ const CategoryItem = styled.div`
   margin: 2.5px 5px;
   padding: 3px 5px;
   border-radius: 3px;
-  background: black;
+  background: #408250;
   font-size: 14px;
   font-weight: 700;
   color: white;

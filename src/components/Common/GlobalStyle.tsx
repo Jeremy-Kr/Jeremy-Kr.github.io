@@ -6,13 +6,25 @@ const GlobalStyle: FunctionComponent = () => {
 }
 
 const defaultStyle = css`
-  @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+  @font-face {
+    font-family: 'Noto Sans KR';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap')
+      format('woff');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Noto Sans KR';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap')
+      format('woff');
+    font-style: normal;
+    unicode-range: U+0041-005A, U+0061-007A;
+  }
 
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
   }
 
   html,

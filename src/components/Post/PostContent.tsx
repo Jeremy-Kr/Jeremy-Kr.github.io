@@ -85,6 +85,7 @@ const MarkdownRenderer = styled.div`
     margin: 30px 0;
     padding: 15px;
     font-size: 15px;
+    border-radius: 5px;
 
     ::-webkit-scrollbar-thumb {
       background: rgba(255, 255, 255, 0.5);

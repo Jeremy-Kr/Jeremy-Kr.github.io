@@ -1,11 +1,13 @@
 import styled from '@emotion/styled'
+import { Link } from 'gatsby'
 import React, { FunctionComponent } from 'react'
 
 const Footer: FunctionComponent = () => {
   return (
     <FooterWrapper>
-      Thank You for Visiting My Blog, Have a Good Day 😆
-      <br /> &copy; 2022 Developer Jeremy, Powered By Gatsby.
+      제 블로그에 방문해 주셔서 감사합니다. 좋은 하루 보내세요!😆 <br /> &copy;
+      2022 Developer Jeremy, Powered By Gatsby.
+      <Link to="easter-egg">🥚</Link>
     </FooterWrapper>
   )
 }
